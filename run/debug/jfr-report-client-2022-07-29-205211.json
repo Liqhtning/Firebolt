@@ -1,0 +1,209 @@
+{
+  "startedEpoch": 1659145932055,
+  "endedEpoch": 1659145945527,
+  "durationMs": 13472,
+  "heap": {
+    "allocationRateBytesPerSecond": 1.32120576E7,
+    "gcCount": 2,
+    "gcOverHeadPercent": 0.21563242,
+    "gcTotalDurationMs": 2905
+  },
+  "cpuPercent": {
+    "jvm": {
+      "min": 0.015564254485070705,
+      "average": 0.03713048966601491,
+      "max": 0.059416837990283966
+    },
+    "userJvm": {
+      "min": 0.514945924282074,
+      "average": 0.6445929348468781,
+      "max": 0.8077925443649292
+    },
+    "system": {
+      "min": 0.9886208772659302,
+      "average": 0.998488438129425,
+      "max": 1.0
+    }
+  },
+  "network": {
+    "sent": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    },
+    "received": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    }
+  },
+  "fileIO": {
+    "write": {
+      "totalBytes": 1216,
+      "count": 7,
+      "bytesPerSecond": 93.53846153846153,
+      "countPerSecond": 0.5384615384615384,
+      "topContributors": [
+        {
+          "path": "logs\\debug.log",
+          "totalBytes": 616
+        },
+        {
+          "path": "logs\\latest.log",
+          "totalBytes": 269
+        }
+      ]
+    },
+    "read": {
+      "totalBytes": 3218,
+      "count": 4,
+      "bytesPerSecond": 247.53846153846155,
+      "countPerSecond": 0.3076923076923077,
+      "topContributors": [
+        {
+          "path": "C:\\Users\\schoo\\OneDrive\\Desktop\\things\\Minecraft\\Firebolt\\.gradle\\loom-cache\\1.19\\net.fabricmc.yarn.1_19.1.19+build.4-v2\\minecraft-project-@-merged-named.jar",
+          "totalBytes": 3218
+        }
+      ]
+    }
+  },
+  "serverTick": {
+    "minMs": 2.728079,
+    "averageMs": 5.3893903000000005,
+    "maxMs": 11.741048,
+    "p99": 11.502422,
+    "p90": 9.354788000000001,
+    "p75": 6.674714,
+    "p50": 4.211074
+  },
+  "threadAllocation": [
+    {
+      "thread": "Attach Listener",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "C1 CompilerThread0",
+      "bytesPerSecond": 33.6
+    },
+    {
+      "thread": "C2 CompilerThread0",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "C2 CompilerThread1",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Common-Cleaner",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Finalizer",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "IO-Worker-10",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "IO-Worker-14",
+      "bytesPerSecond": 496.0
+    },
+    {
+      "thread": "JFR Periodic Tasks",
+      "bytesPerSecond": 1168.0
+    },
+    {
+      "thread": "JFR Recorder Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Monitor Deflation Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Narrator",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Netty Local Client IO #0",
+      "bytesPerSecond": 1718.4
+    },
+    {
+      "thread": "Netty Server IO #0",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Netty Server IO #1",
+      "bytesPerSecond": 1323.2
+    },
+    {
+      "thread": "Notification Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Reference Handler",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Render thread",
+      "bytesPerSecond": 9244673.6
+    },
+    {
+      "thread": "Server thread",
+      "bytesPerSecond": 1566564.8
+    },
+    {
+      "thread": "Service Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Signal Dispatcher",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Sound engine",
+      "bytesPerSecond": 3142.4
+    },
+    {
+      "thread": "Sweeper thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Timer hack thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Worker-Bootstrap-1",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Worker-Main-4",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Worker-Main-5",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Worker-Main-6",
+      "bytesPerSecond": 2181273.6
+    },
+    {
+      "thread": "Worker-Main-8",
+      "bytesPerSecond": 2178006.4
+    },
+    {
+      "thread": "Worker-Main-9",
+      "bytesPerSecond": 2911776.0
+    }
+  ],
+  "chunkGen": {
+    "durationNanosTotal": 0.0,
+    "status": []
+  }
+}

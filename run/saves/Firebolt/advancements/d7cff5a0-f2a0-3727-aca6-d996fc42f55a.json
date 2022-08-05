@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2022-08-01 23:14:06 -0500"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-08-01 23:14:53 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3105
+}
