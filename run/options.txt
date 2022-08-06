@@ -1,4 +1,4 @@
-version:3105
+version:3117
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -35,7 +35,7 @@ maxFps:250
 graphicsMode:0
 ao:2
 prioritizeChunkUpdates:0
-biomeBlendRadius:2
+biomeBlendRadius:0
 renderClouds:"false"
 resourcePacks:["Fabric Mods"]
 incompatibleResourcePacks:[]
@@ -75,7 +75,7 @@ hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
-chatPreview:true
+chatPreview:1
 onlyShowSecureChat:false
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
