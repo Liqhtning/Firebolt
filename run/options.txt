@@ -33,7 +33,7 @@ guiScale:2
 particles:0
 maxFps:250
 graphicsMode:0
-ao:2
+ao:0
 prioritizeChunkUpdates:0
 biomeBlendRadius:0
 renderClouds:"false"

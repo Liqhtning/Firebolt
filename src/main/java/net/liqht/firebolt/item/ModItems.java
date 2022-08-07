@@ -24,6 +24,9 @@ public class ModItems {
             new SpawnEggItem(ModEntities.MINION,0xFFFF00, 0x000000,
                     new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS).maxCount(1)));
 
+    public static final Item DENIMFRAGMENT = registerItems("denimfragment",
+            new Item(new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS).maxCount(8)));
+
     private static Item registerItems(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Firebolt.MOD_ID, name), item);
     }
