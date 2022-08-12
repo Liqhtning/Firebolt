@@ -27,6 +27,7 @@ public class ModItems {
     public static final Item DENIMFRAGMENT = registerItems("denimfragment",
             new Item(new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS).maxCount(8)));
 
+
     private static Item registerItems(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Firebolt.MOD_ID, name), item);
     }
