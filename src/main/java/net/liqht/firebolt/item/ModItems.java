@@ -5,6 +5,8 @@ import net.liqht.firebolt.Firebolt;
 import net.liqht.firebolt.entity.ModEntities;
 import net.liqht.firebolt.item.custom.BananaItem;
 import net.liqht.firebolt.item.custom.BananaTreeItem;
+import net.liqht.firebolt.item.custom.tools.*;
+import net.liqht.firebolt.item.custom.tools.materials.ToolMaterialUltimateBanana;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.SpawnEggItem;
@@ -27,6 +29,29 @@ public class ModItems {
     public static final Item DENIMFRAGMENT = registerItems("denimfragment",
             new Item(new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS).maxCount(8)));
 
+    public static final Item BUNDLEOFBANANAS = registerItems("bundleofbananas",
+            new Item(new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS).maxCount(16)));
+
+    public static final Item CLUSTEROFBANANAS = registerItems("clusterofbananas",
+            new Item(new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS).maxCount(8)));
+
+    public static final Item ULTIMATEBANANA = registerItems("ultimatebanana",
+            new Item(new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS).maxCount(1)));
+
+    public static final Item BANANASWORD = registerItems("bananasword",
+            new SwordBase(new ToolMaterialUltimateBanana()));
+
+    public static final Item BANANAPICKAXE = registerItems("bananapickaxe",
+            new PickaxeBase(new ToolMaterialUltimateBanana()));
+
+    public static final Item BANANAAXE = registerItems("bananaaxe",
+            new AxeBase(new ToolMaterialUltimateBanana()));
+
+    public static final Item BANANASHOVEL = registerItems("bananashovel",
+            new ShovelBase(new ToolMaterialUltimateBanana()));
+
+    public static final Item BANANAHOE = registerItems("bananahoe",
+            new HoeBase(new ToolMaterialUltimateBanana()));
 
     private static Item registerItems(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Firebolt.MOD_ID, name), item);
