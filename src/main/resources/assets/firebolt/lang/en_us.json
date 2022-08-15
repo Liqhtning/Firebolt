@@ -12,6 +12,10 @@
   "item.firebolt.bananapickaxe": "§l§6Banana Pickaxe",
   "item.firebolt.bananashovel": "§l§6Banana Shovel",
   "item.firebolt.bananahoe": "§l§6Banana Hoe",
+  "item.firebolt.miniongoggles": "Minion's Goggles",
+  "item.firebolt.overalls": "Overalls",
+  "item.firebolt.minionleggings": "Minion's Jeans",
+  "item.firebolt.minionboots": "Minion's Boots",
 
   "itemGroup.firebolt.custom_items": "Firebolt Items"
 }

@@ -1,4 +1,4 @@
-package net.liqht.firebolt.item.custom.tools;
+package net.liqht.firebolt.item.tools;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.liqht.firebolt.item.ModItemGroup;

@@ -1,4 +1,4 @@
-package net.liqht.firebolt.item.custom.tools.materials;
+package net.liqht.firebolt.item.tools.materials;
 
 import net.liqht.firebolt.item.ModItems;
 import net.minecraft.item.ToolMaterial;

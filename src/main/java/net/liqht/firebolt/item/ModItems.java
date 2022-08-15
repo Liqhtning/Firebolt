@@ -5,8 +5,10 @@ import net.liqht.firebolt.Firebolt;
 import net.liqht.firebolt.entity.ModEntities;
 import net.liqht.firebolt.item.custom.BananaItem;
 import net.liqht.firebolt.item.custom.BananaTreeItem;
-import net.liqht.firebolt.item.custom.tools.*;
-import net.liqht.firebolt.item.custom.tools.materials.ToolMaterialUltimateBanana;
+import net.liqht.firebolt.item.custom.MinionArmorItem;
+import net.liqht.firebolt.item.tools.*;
+import net.liqht.firebolt.item.tools.materials.ToolMaterialUltimateBanana;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.SpawnEggItem;
@@ -52,6 +54,18 @@ public class ModItems {
 
     public static final Item BANANAHOE = registerItems("bananahoe",
             new HoeBase(new ToolMaterialUltimateBanana()));
+
+    public static final Item MINIONGOGGLES = registerItems("miniongoggles",
+            new MinionArmorItem(ModArmorMaterials.MINION, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS)));
+
+    public static final Item OVERALLS = registerItems("overalls",
+            new MinionArmorItem(ModArmorMaterials.MINION, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS)));
+
+    public static final Item MINIONLEGGINGS = registerItems("minionleggings",
+            new MinionArmorItem(ModArmorMaterials.MINION, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS)));
+
+    public static final Item MINIONBOOTS = registerItems("minionboots",
+            new MinionArmorItem(ModArmorMaterials.MINION, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS)));
 
     private static Item registerItems(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Firebolt.MOD_ID, name), item);
