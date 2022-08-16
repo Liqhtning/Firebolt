@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "firebolt:item/denimfragment",
-		"particle": "firebolt:item/denimfragment"
+		"0": "firebolt:item/denim",
+		"particle": "firebolt:item/denim"
 	},
 	"elements": [
 		{

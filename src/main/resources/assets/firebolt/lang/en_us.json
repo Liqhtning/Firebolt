@@ -1,21 +1,22 @@
 {
   "item.firebolt.banana": "Banana",
   "item.firebolt.bananatooltip": "yummy",
-  "item.firebolt.bananatree": "Banana Tree",
-  "item.firebolt.minionspawnegg": "Minion Spawn Egg",
-  "item.firebolt.denimfragment": "Denim Fragment",
   "item.firebolt.bundleofbananas": "Bundle of Bananas",
   "item.firebolt.clusterofbananas": "Cluster of Bananas",
   "item.firebolt.ultimatebanana": "§l§6Ultimate Banana",
   "item.firebolt.bananasword": "§l§6Banana Sword",
-  "item.firebolt.bananaaxe": "§l§6Banana Axe",
   "item.firebolt.bananapickaxe": "§l§6Banana Pickaxe",
+  "item.firebolt.bananaaxe": "§l§6Banana Axe",
   "item.firebolt.bananashovel": "§l§6Banana Shovel",
   "item.firebolt.bananahoe": "§l§6Banana Hoe",
+  "item.firebolt.bananatree": "Banana Tree",
+  "item.firebolt.minionspawnegg": "Minion Spawn Egg",
   "item.firebolt.miniongoggles": "Minion's Goggles",
   "item.firebolt.overalls": "Overalls",
   "item.firebolt.minionleggings": "Minion's Jeans",
   "item.firebolt.minionboots": "Minion's Boots",
+  "item.firebolt.denimfragment": "Denim Fragment",
+  "item.firebolt.denim": "Denim",
 
   "itemGroup.firebolt.custom_items": "Firebolt Items"
 }
