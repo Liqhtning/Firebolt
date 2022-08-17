@@ -26,6 +26,10 @@
             }
           ],
           "name": "firebolt:denimfragment"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "firebolt:glassshard"
         }
       ],
       "rolls": 1.0

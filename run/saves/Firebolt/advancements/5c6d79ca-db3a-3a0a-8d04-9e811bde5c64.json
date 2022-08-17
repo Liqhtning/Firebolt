@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2022-08-15 21:06:04 -0500"
+    },
+    "done": false
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2022-08-15 21:06:31 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3117
+}

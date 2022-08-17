@@ -70,6 +70,12 @@ public class ModItems {
     public static final Item DENIM = registerItems("denim",
             new Item(new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS)));
 
+    public static final Item COMPRESSEDLEATHER = registerItems("compressedleather",
+            new Item(new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS)));
+
+    public static final Item GLASSSHARD = registerItems("glassshard",
+            new Item(new FabricItemSettings().group(ModItemGroup.CUSTOM_ITEMS)));
+
     private static Item registerItems(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Firebolt.MOD_ID, name), item);
     }
